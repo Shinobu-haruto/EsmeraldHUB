@@ -1,0 +1,55 @@
+/* ===================== PANEL SUPERIOR ===================== */
+#panel {
+    background-color: rgba(0,30,0,0.85); /* verde oscuro estilo HUD */
+    border-bottom: 1px solid rgba(0,255,120,0.35);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5),
+                0 0 6px rgba(0,255,120,0.45) inset;
+    height: 36px;
+}
+
+/* ===================== BOTONES DEL PANEL ===================== */
+.panel-button {
+    background-color: rgba(0,120,0,0.85);
+    border-radius: 8px;
+    padding: 4px 6px;
+    color: #e0ffe0;
+    box-shadow: 0 0 6px rgba(0,255,120,0.45);
+    transition: background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.panel-button:hover {
+    background-color: rgba(0,180,0,0.85);
+    box-shadow: 0 0 10px rgba(0,255,120,0.65);
+}
+
+/* ===================== NOTIFICACIONES ===================== */
+.notification {
+    background-color: rgba(18,28,18,0.85);
+    border-radius: 8px;
+    border: 1px solid rgba(120,255,120,0.25);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.45),
+                0 0 8px rgba(0,255,120,0.45) inset;
+    color: #e0ffe0;
+    padding: 6px 12px;
+}
+
+/* ===================== POPOVERS ===================== */
+.popup-menu, .popover {
+    background-color: rgba(16,26,16,0.75);
+    border-radius: 8px;
+    border: 1px solid rgba(120,255,120,0.18);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.45);
+}
+.popup-menu .menu-item:hover {
+    background-color: rgba(40,120,40,0.45);
+}
+
+button.close {
+    background-image: url("assets/button-close.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+button.close:hover {
+    background-image: url("assets/button-close-hover.svg");
+}
+

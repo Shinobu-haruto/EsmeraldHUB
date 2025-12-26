@@ -1,0 +1,46 @@
+/* =====================================================
+   COLOR PALETTE — EMERALD HUD
+   ===================================================== */
+
+/* ---------- ACCENT / ENERGY ---------- */
+@define-color accent-primary    #3fb950;   /* verde energía */
+@define-color accent-secondary  #2ea043;   /* verde profundo */
+@define-color accent-dim        #1f6f43;   /* standby */
+
+/* ---------- SURFACES ---------- */
+@define-color surface-main      rgba(10,18,10,0.88);
+@define-color surface-alt       rgba(14,22,14,0.92);
+@define-color surface-backdrop  rgba(8,12,8,0.72);
+
+/* ---------- HEADER ---------- */
+@define-color header-main       rgba(20,60,20,0.75);
+@define-color header-backdrop   rgba(14,30,14,0.55);
+
+/* ---------- FRAME / DIVIDERS ---------- */
+@define-color frame-active      rgba(120,255,120,0.10);
+@define-color frame-inactive    rgba(120,255,120,0.04);
+@define-color divider-light     rgba(140,255,140,0.10);
+
+/* ---------- TEXT ---------- */
+@define-color text-main         #e5e7eb;
+@define-color text-muted        #9ca3af;
+@define-color text-disabled     #6b7280;
+
+/* ---------- CONTROLS ---------- */
+@define-color control-idle      rgba(60,120,60,0.35);
+@define-color control-hover     rgba(120,220,120,0.55);
+@define-color control-active    rgba(40,180,40,0.75);
+
+/* ---------- FEEDBACK ---------- */
+@define-color danger            #dc2626;
+@define-color danger-hover      rgba(180,60,60,0.85);
+
+/* ---------- EFFECTS ---------- */
+@define-color glow-soft         rgba(120,255,120,0.25);
+@define-color glow-medium       rgba(120,255,120,0.40);
+@define-color glow-strong       rgba(120,255,120,0.65);
+
+/* ---------- SHADOWS ---------- */
+@define-color shadow-soft       rgba(0,0,0,0.30);
+@define-color shadow-strong     rgba(0,0,0,0.45);
+

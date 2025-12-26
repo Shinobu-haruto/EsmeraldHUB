@@ -1,0 +1,47 @@
+/* =====================================================
+   DESIGN TOKENS — EMERALD HUD
+   ===================================================== */
+
+/* ---------- RADII ---------- */
+@define-color radius-xs  1px;
+@define-color radius-sm  2px;
+@define-color radius-md  3px;
+@define-color radius-lg  4px;
+
+/* ---------- SPACING ---------- */
+@define-color space-2xs  2px;
+@define-color space-xs   4px;
+@define-color space-sm   6px;
+@define-color space-md   8px;
+@define-color space-lg   12px;
+
+/* ---------- HEADER ---------- */
+@define-color header-height 32px;
+
+/* ---------- CONTROLS ---------- */
+@define-color control-size     22px;
+@define-color control-width    26px;
+
+/* ---------- MOTION ---------- */
+@define-color motion-fast   120ms;
+@define-color motion-normal 160ms;
+@define-color motion-slow   220ms;
+
+/* ---------- OPACITY ---------- */
+@define-color opacity-active    1;
+@define-color opacity-backdrop  0.75;
+@define-color opacity-disabled  0.45;
+
+/* ---------- STROKES ---------- */
+@define-color stroke-thin   1px;
+@define-color stroke-none   0;
+
+/* ---------- BLUR (external) ---------- */
+/* Reference only — controlled by compositor */
+@define-color blur-strength 6;
+
+/* ---------- Z-DEPTH (conceptual) ---------- */
+@define-color depth-low   4;
+@define-color depth-mid   8;
+@define-color depth-high  20;
+

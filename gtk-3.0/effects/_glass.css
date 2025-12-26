@@ -1,0 +1,53 @@
+/* =====================================================
+   GLASS EFFECT — EMERALD HUD
+   ===================================================== */
+
+/* ---------- GLASS BASE ---------- */
+.glass,
+headerbar,
+.titlebar {
+  background-color: @glass-bg;
+
+  border-bottom: 1px solid @glass-border;
+
+  box-shadow:
+    inset 0 1px 0 @glass-highlight,
+    0 10px 24px rgba(0,0,0,0.35);
+}
+
+/* ---------- BACKDROP (inactive glass) ---------- */
+headerbar:backdrop,
+.titlebar:backdrop {
+  background-color: rgba(20,25,20,0.45);
+}
+
+/* ---------- FLOATING PANELS ---------- */
+popover,
+menu,
+.tooltip {
+  background-color: rgba(18,28,18,0.70);
+
+  border: 1px solid rgba(120,255,120,0.20);
+  border-radius: 10px;
+
+  box-shadow:
+    0 12px 28px rgba(0,0,0,0.45);
+}
+
+/* ---------- SIDEBAR GLASS ---------- */
+.sidebar,
+placessidebar {
+  background-color: rgba(16,24,16,0.60);
+
+  border-right: 1px solid rgba(120,255,120,0.18);
+}
+
+/* ---------- ENTRY / INPUT GLASS ---------- */
+entry,
+textview {
+  background-color: rgba(20,30,20,0.55);
+
+  box-shadow:
+    inset 0 0 0 1px rgba(120,255,120,0.18);
+}
+

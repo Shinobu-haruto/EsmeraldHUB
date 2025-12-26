@@ -1,0 +1,9 @@
+/* GTK4 compatibility */
+window {
+  background: transparent;
+}
+
+headerbar windowcontrols {
+  margin-right: 6px;
+}
+

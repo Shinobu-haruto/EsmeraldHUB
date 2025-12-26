@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=EmeraldHUD
+Comment=Futuristic HUD/Xbox Style Theme for Cinnamon
+Type=Theme
+GTKTheme=EmeraldHUD
+CinnamonTheme=EmeraldHUD
+MetacityTheme=EmeraldHUD
+X-GNOME-MetacityTheme=EmeraldHUD
+

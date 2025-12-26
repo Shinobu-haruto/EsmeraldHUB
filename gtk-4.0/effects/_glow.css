@@ -1,0 +1,33 @@
+/* =====================================================
+   GLOW EFFECT — GTK4
+   ===================================================== */
+
+/* Superficie activa */
+window > box {
+  box-shadow:
+    inset 0 0 0 1px rgba(255,255,255,0.03),
+    0 0 12px @glow-soft,
+    0 8px 20px rgba(0,0,0,0.45);
+}
+
+/* Headerbar */
+headerbar {
+  box-shadow:
+    inset 0 -1px 0 rgba(140,255,140,0.15),
+    0 0 8px @glow-soft;
+}
+
+/* Botones */
+headerbar windowcontrols button:hover {
+  box-shadow:
+    inset 0 0 0 1px rgba(255,255,255,0.12),
+    0 0 6px @glow-medium;
+}
+
+/* Focus */
+*:focus-visible {
+  box-shadow:
+    0 0 0 1px rgba(140,255,140,0.35),
+    0 0 8px @glow-medium;
+}
+

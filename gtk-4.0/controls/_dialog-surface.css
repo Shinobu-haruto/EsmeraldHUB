@@ -1,0 +1,89 @@
+
+/* ---------- PROGRESSBAR ---------- */
+progress,
+progressbar {
+  background-color: rgba(18,28,18,0.70);
+  border-radius: 6px;
+  border: 1px solid rgba(120,255,120,0.18);
+}
+
+progress::chunk,
+progressbar::chunk {
+  background-color: @accent-primary;
+  border-radius: 6px;
+  transition: width @motion-fast ease-out;
+}
+
+/* ---------- SLIDERS ---------- */
+scale slider,
+scale trough,
+scale {
+  background-color: rgba(18,28,18,0.65);
+  border-radius: 6px;
+}
+
+scale slider {
+  background-color: @accent-primary;
+  border-radius: 6px;
+  min-width: 12px;
+  min-height: 12px;
+  box-shadow: 0 0 6px @glow-soft;
+}
+
+/* ---------- SWITCH ---------- */
+switch {
+  background-color: rgba(18,28,18,0.65);
+  border-radius: 12px;
+  min-width: 34px;
+  min-height: 18px;
+}
+
+switch slider {
+  background-color: @accent-primary;
+  border-radius: 12px;
+  box-shadow: 0 0 6px @glow-soft;
+  transition: left @motion-fast ease-out, background-color @motion-fast;
+}
+
+/* ---------- CHECKBUTTON / RADIO ---------- */
+checkbutton,
+radiobutton {
+  spacing: 6px;
+}
+
+checkbutton indicator,
+radiobutton indicator {
+  border: 1px solid rgba(120,255,120,0.25);
+  background-color: rgba(18,28,18,0.65);
+  border-radius: 4px;
+  min-width: 14px;
+  min-height: 14px;
+}
+
+checkbutton:checked indicator,
+radiobutton:checked indicator {
+  background-color: @accent-primary;
+  box-shadow: 0 0 4px @glow-soft;
+}
+
+/* ---------- SCROLLBAR ---------- */
+scrollbar,
+scrollbar slider {
+  background-color: rgba(18,28,18,0.45);
+  border-radius: 6px;
+}
+
+scrollbar slider:hover {
+  background-color: rgba(40,120,40,0.45);
+}
+
+/* ---------- SPINBUTTON / ENTRY ---------- */
+spinbutton,
+entry,
+textview {
+  background-color: rgba(20,30,20,0.55);
+  border-radius: 6px;
+  border: 1px solid rgba(120,255,120,0.18);
+  padding: 2px 6px;
+}
+

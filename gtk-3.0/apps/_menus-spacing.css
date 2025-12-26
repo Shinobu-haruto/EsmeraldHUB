@@ -1,0 +1,44 @@
+/* =====================================================
+   MENUS SPACING / SEPARATION — EMERALD HUD
+   ===================================================== */
+
+/* ---------- HEADERBAR Y MENUBAR ---------- */
+headerbar {
+  padding-bottom: 4px; /* separa header del menubar */
+}
+
+/* ---------- MENUBAR ---------- */
+menubar {
+  margin-top: 4px;      /* separación superior */
+  margin-bottom: 4px;   /* separación inferior */
+}
+
+/* ---------- TOOLBAR ---------- */
+toolbar {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 4px 6px;
+}
+
+/* ---------- PATHBAR (breadcrumbs) ---------- */
+.path-bar,
+.pathbar {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+/* ---------- ENTRE BOTONES ---------- */
+menubar > menuitem,
+toolbar button,
+.path-bar button,
+.pathbar button {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+/* ---------- SEPARATORS ---------- */
+separator {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+

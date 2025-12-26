@@ -1,0 +1,41 @@
+/* =====================================================
+   EMERALD HUD
+   ===================================================== */
+
+/* -----------------------------------------------------
+   1. VARIABLES & TOKENS
+   ----------------------------------------------------- */
+@import url("core/_variables.css");
+@import url("core/_palette.css");
+
+/* -----------------------------------------------------
+   2. TYPOGRAPHY
+   ----------------------------------------------------- */
+@import url("core/_typography.css");
+
+/* -----------------------------------------------------
+   3. WINDOW & STRUCTURE
+   ----------------------------------------------------- */
+@import url("controls/_window-shell.css");
+@import url("controls/_header-surface.css");
+@import url("controls/_window-controls.css");
+@import url("controls/_dialog-surface.css");
+@import url("controls/_components.css");
+/* -----------------------------------------------------
+   4. STATES & INTERACTION
+   ----------------------------------------------------- */
+@import url("states/_states.css");
+
+/* -----------------------------------------------------
+   5. EFFECTS
+   ----------------------------------------------------- */
+@import url("effects/_glow.css");
+@import url("effects/_spinner.css");
+/* -----------------------------------------------------
+   6. APPLICATION TWEAKS
+   (optional, later)
+   ----------------------------------------------------- */
+@import url("apps/_nemo.css");
+@import url("apps/_settings.css");
+@import url("apps/_terminal.css");
+@import url("apps/_menu-toolbar.css");

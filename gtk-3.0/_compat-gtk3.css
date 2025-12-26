@@ -1,0 +1,9 @@
+/* GTK3 legacy fixes */
+headerbar {
+  padding: 0 8px;
+}
+
+.titlebutton {
+  -gtk-icon-shadow: none;
+}
+

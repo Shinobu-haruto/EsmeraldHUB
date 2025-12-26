@@ -1,0 +1,28 @@
+<metacity_theme name="EsmeraldHUD" author="Shinobu_haruto">
+  <general>
+    <border_width>4</border_width>
+    <title_vertical_padding>6</title_vertical_padding>
+    <title_horizontal_padding>12</title_horizontal_padding>
+    <font>Sans Bold 10</font>
+    <button_spacing>6</button_spacing>
+  </general>
+
+  <!-- Frame normal y activo -->
+  <frame_style name="normal">
+    <color type="border" value="#007800"/>
+    <color type="title_fg" value="#e0ffe0"/>
+    <color type="title_bg" value="#001e00"/>
+  </frame_style>
+
+  <frame_style name="active">
+    <color type="border" value="#00ff78"/>
+    <color type="title_fg" value="#ffffff"/>
+    <color type="title_bg" value="#003300"/>
+  </frame_style>
+
+  <!-- Botones SVG -->
+  <button name="close" image="button-close.svg" image_hover="button-close-hover.svg"/>
+  <button name="maximize" image="button-maximize.svg" image_hover="button-maximize-hover.svg"/>
+  <button name="minimize" image="button-minimize.svg" image_hover="button-minimize-hover.svg"/>
+</metacity_theme>
+

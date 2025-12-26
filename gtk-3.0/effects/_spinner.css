@@ -1,0 +1,34 @@
+/* =====================================================
+   SPINNER — EMERALD HUD
+   ===================================================== */
+
+/* ---------- SPINNER BASE ---------- */
+spinner {
+  min-width: 24px;
+  min-height: 24px;
+  background-color: rgba(18,28,18,0.55);
+  border-radius: 12px;
+  border: 2px solid rgba(120,255,120,0.25);
+  box-shadow: 0 0 4px @glow-soft;
+}
+
+/* ---------- SPINNER CHUNKS / ANIMATION ---------- */
+spinner > spinner > * {
+  background-color: @accent-primary;
+  border-radius: 50%;
+  transition: background-color @motion-fast ease-out;
+}
+
+/* Hover (si el spinner es interactivo) */
+spinner:hover {
+  background-color: rgba(40,120,40,0.45);
+  box-shadow: 0 0 6px @glow-soft;
+}
+
+/* Disabled spinner */
+spinner:disabled {
+  opacity: @opacity-disabled;
+  background-color: rgba(18,28,18,0.35);
+  box-shadow: none;
+}
+
