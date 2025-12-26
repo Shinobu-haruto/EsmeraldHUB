@@ -4,4 +4,4 @@ Pueden aplicarle mejoras aun faltan detalles que poner
 
 ## 🖼️ Vista previa
 
-![preview-theme.png](https://github.com/Shinobu-haruto/EsmeraldHUB/blob/main/preview_theme.png)
+![preview-theme.png](https://github.com/Shinobu-haruto/EsmeraldHUB/blob/main/preview-theme.png)
